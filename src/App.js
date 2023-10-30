@@ -44,7 +44,7 @@ function App() {
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     if (isBottom) {
-      if (perPage > 30) {
+      if (perPage > 40) {
         return;
       }
 
